@@ -1,0 +1,15 @@
+@use 'base/base';
+@use 'abstracts/variables';
+@use 'layout/header';
+@use 'layout/nav';
+@use 'layout/footer';
+@use 'components/bienvenida';
+@use 'components/servicios';
+@use 'components/testimonios';
+@use 'components/equipo';
+@use 'pages/contacto';
+
+
+@media (max-width: 780px) {
+
+}

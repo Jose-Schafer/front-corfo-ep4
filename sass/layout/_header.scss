@@ -1,0 +1,28 @@
+header {
+    background-color: #0062f5;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px; 
+    }
+
+    header h1 {
+        font-size: 1.5rem; 
+    }
+
+    nav ul {
+        flex-direction: column; 
+        align-items: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+}

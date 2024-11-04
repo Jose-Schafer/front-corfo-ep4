@@ -1,0 +1,49 @@
+.bienvenida {
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-image: url("/img/banner_hospital.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+    &__contenido {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.3); 
+    }
+
+    &__titulo {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+
+    &__descripcion {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        color: #ffffff;
+    }
+}
+
+// aplicacion de bootstrap//
+
+@media (max-width: 780px) {
+    .bienvenida {
+        padding: 50px 0;
+
+        &__titulo {
+            font-size: 2rem;
+        }
+
+        &__descripcion {
+            font-size: 1rem;
+        }
+
+        &__contenido {
+            padding: 15px;
+        }
+    }
+}
