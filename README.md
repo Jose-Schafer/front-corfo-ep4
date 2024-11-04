@@ -9,6 +9,9 @@ Este proyecto es una página web de presentación para el **Hospital Nueva Vida*
 - **BEM** (Block-Element-Modifier) para la organizacion de modulos
 - **Bootstrap** Para hacer responsivo el sitio en diferentes dimensiones de pantallas
 
+## Boostrap
+Sección de bootstrap en el Readme
+
 
 ## Estructura del proyecto
 
