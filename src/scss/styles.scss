@@ -1,2 +1,14 @@
 // Import all of Bootstrap's CSS
 @use "bootstrap/scss/bootstrap";
+
+// Import internatl SCSS
+@use 'base/base';
+@use 'abstracts/variables';
+@use 'layout/header';
+@use 'layout/nav';
+@use 'layout/footer';
+@use 'components/bienvenida';
+@use 'components/servicios';
+@use 'components/testimonios';
+@use 'components/equipo';
+@use 'pages/contacto';
