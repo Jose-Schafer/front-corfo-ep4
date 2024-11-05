@@ -32,6 +32,7 @@
     "webpack-dev-server": "^5.1.0"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^5.1.0",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "file-loader": "^6.2.0",
