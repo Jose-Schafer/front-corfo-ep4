@@ -2,6 +2,24 @@
 
 Este proyecto es una página web de presentación para el **Hospital Nueva Vida**, que brinda atención médica de alta calidad. El sitio tiene un diseño responsivo y utiliza **SASS** con metodología **BEM** para organizar los estilos, lo que facilita el mantenimiento y la escalabilidad del código.
 
+## Como probar
+
+Instalar los paquetes necesarios
+```sh
+npm install
+```
+
+Inicializar el servidor de desarrollo
+```sh
+npm start
+```
+
+Acceder al localhost en el puerto 8080
+```
+http://localhost:8080/index.html
+```
+
+
 ## Puntos a desarrollar
 
 - **HTML5** para la estructura del contenido.
