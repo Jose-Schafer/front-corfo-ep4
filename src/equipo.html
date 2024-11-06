@@ -10,19 +10,23 @@
 </head>
 
 <body>
-    <header>
-    <div class="logo">
+    <header class="header">
+    <div class="header__logo">
         <img src="img/logo-02.png" alt="Logo del hospital">
     </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="equipo.html">Equipo Médico</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><button>Reservar Cita</button></li>
-            </ul>
-        </nav>
-    </header>
+    <button class="header__menu-toggle" aria-label="Abrir menú">
+        <i class="fas fa-bars"></i>
+    </button>
+    <nav class="header__nav">
+        <ul class="header__nav-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="equipo.html">Equipo Médico</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><button class="header__cta-button">Reservar Cita</button></li>
+        </ul>
+    </nav>
+</header>
+
 
     <main>
         <section class="bienvenida">
