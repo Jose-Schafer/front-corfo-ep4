@@ -36,3 +36,62 @@ nav ul li button {
         margin: 10px 0;
     }
 }
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: royalblue;
+}
+.header__logo img {
+  max-width: 150px;
+}
+.header__menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.header__nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+.header__nav-links li a,
+.header__nav-links li .header__cta-button {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.header__nav-links li .header__cta-button {
+  background-color: rgb(3, 195, 160);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+@media (max-width: 768px) {
+  .header__nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: royalblue;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__nav-links {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  .header__menu-toggle {
+    display: block;
+  }
+  .header.is-open .header__nav {
+    display: flex;
+  }
+}

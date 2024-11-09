@@ -1,17 +1,16 @@
 // Abstract variables
-@import "abstracts/variables";
-
-// Import internatl SCSS
-@import "base/base";
-@import "base/typography";
-@import "layout/header";
-@import "layout/nav";
-@import "layout/footer";
-@import "components/bienvenida";
-@import "components/servicios";
-@import "components/testimonios";
-@import "components/equipo";
-@import "pages/contacto";
+@use 'abstracts/variables' as *;
 
 // Import all of Bootstrap's CSS
-@import "bootstrap/scss/bootstrap";
+@use "bootstrap/scss/bootstrap";
+
+// Import internatl SCSS
+@use 'base/base';
+@use 'layout/header';
+@use 'layout/nav';
+@use 'layout/footer';
+@use 'components/bienvenida';
+@use 'components/servicios';
+@use 'components/testimonios';
+@use 'components/equipo';
+@use 'pages/contacto';

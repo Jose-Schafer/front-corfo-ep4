@@ -19,6 +19,9 @@ Acceder al localhost en el puerto 8080
 http://localhost:8080/index.html
 ```
 
+## Integrantes
+- Carlos Farias
+- José Schafer
 
 ## Puntos a desarrollar
 

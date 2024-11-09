@@ -1,6 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "~@fontsource/montserrat";
 
 body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    color: $text-color;
     line-height: 1.6;
 }
 

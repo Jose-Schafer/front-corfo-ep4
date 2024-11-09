@@ -14,110 +14,115 @@
         rel="stylesheet">
 </head>
 
-<header class="header">
-    <div class="header__logo">
-        <img src="img/logo-02.png" alt="Logo del hospital">
-    </div>
-    <nav class="header__nav">
-        <ul class="header__menu">
-            <li class="header__menu-item"><a href="index.html">Inicio</a></li>
-            <li class="header__menu-item"><a href="equipo.html">Equipo Médico</a></li>
-            <li class="header__menu-item"><a href="contacto.html">Contacto</a></li>
-            <li class="header__menu-item"><button class="header__btn">Reservar Cita</button></li>
-        </ul>
+    <nav class="header navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div class="header__logo">
+                <img src="img/logo-02.png" alt="Logo del hospital">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="header__nav-links navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="equipo.html">Equipo Médico</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    <li class="nav-item"><button class="header__cta-button">Reservar Cita</button></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-</header>
 
-<main>
-    <section class="bienvenida">
-        <div class="bienvenida__contenido">
-            <h1 class="bienvenida__titulo">Bienvenido a Nueva Vida.</h1>
-            <p class="bienvenida__descripcion">Nuestra misión es brindar atención médica de la más alta
-                calidad,<br>enfocándonos en la excelencia y el bienestar integral de nuestros pacientes.</p>
-        </div>
-    </section>
-
+    <main>
+        <section class="bienvenida">
+            <div class="bienvenida__contenido">
+                <h1 class="bienvenida__titulo">Bienvenido a Nueva Vida.</h1>
+                <p class="bienvenida__descripcion">Nuestra misión es brindar atención médica de la más alta
+                    calidad,<br>enfocándonos en la excelencia y el bienestar integral de nuestros pacientes.</p>
+            </div>
+        </section>
 
 
-<section class="container">
-    <h2 class="servicios__titulo">Nuestros Servicios</h2>
-    <div class="row justify-content-md-center">
-        <div class="servicio card col-md mx-2">
-            <img src="img/consultas-medicas.jpg" alt="Consulta médica" class="servicio__imagen">
-            <div class="card-body">
-                <h3 class="servicio__titulo card-title">Consultas Médicas</h3>
-                <p class="servicio__descripcion card-text">Atención personalizada <br>con nuestros mejores especialistas.</p>
+
+        <section class="container">
+            <h2 class="servicios__titulo">Nuestros Servicios</h2>
+            <div class="row justify-content-md-center">
+                <div class="servicio card col-md mx-2">
+                    <img src="img/consultas-medicas.jpg" alt="Consulta médica" class="servicio__imagen">
+                    <div class="card-body">
+                        <h3 class="servicio__titulo card-title">Consultas Médicas</h3>
+                        <p class="servicio__descripcion card-text">Atención personalizada <br>con nuestros mejores especialistas.</p>
+                    </div>
+                </div>
+                <div class="servicio card col-md mx-2">
+                    <img src="img/urgencias.jpg" alt="Urgencias" class="servicio__imagen">
+                    <div class="card-body">
+                        <h3 class="servicio__titulo card-title">Urgencias</h3>
+                        <p class="servicio__descripcion card-text">Atención las 24 horas<br>para emergencias médicas.</p>
+                    </div>
+                </div>
+                <div class="servicio card col-md mx-2">
+                    <img src="img/especialidades-medicas.jpg" alt="Especialidades" class="servicio__imagen">
+                    <div class="card-body">
+                        <h3 class="servicio__titulo card-title">Especialidades Médicas</h3>
+                        <p class="servicio__descripcion card-text">Contamos con una amplia<br>variedad de especialidades.</p>
+                    <div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="testimonios">
+            <h2 class="testimonios__titulo">Testimonios de Pacientes</h2>
+            <div class="testimonio">
+                <img src="img/peril_1.jpg" alt="Paciente 1" class="testimonio__imagen">
+                <blockquote class="testimonio__texto">"La mejor atención médica que he recibido, muy agradecido con el equipo
+                    del hospital."</blockquote>
+                <p class="testimonio__nombre">- Luis Peres</p>
+            </div>
+            <div class="testimonio">
+                <img src="img/peril_2.jpg" alt="Paciente 2" class="testimonio__imagen">
+                <blockquote class="testimonio__texto">"Tremendo servicio, todos muy profesionales."</blockquote>
+                <p class="testimonio__nombre">- Carlos Astorga</p>
+            </div>
+            <div class="testimonio">
+                <img src="img/peril_3.jpg" alt="Paciente 3" class="testimonio__imagen">
+                <blockquote class="testimonio__texto">"Atención muy rápida, recomendado."</blockquote>
+                <p class="testimonio__nombre">- Lucia Andrade</p>
+            </div>
+            <div class="testimonio">
+                <img src="img/peril_4.jpg" alt="Paciente 4" class="testimonio__imagen">
+                <blockquote class="testimonio__texto">"Fui a muchos centros médicos, y este fue por lejos el mejor."
+                </blockquote>
+                <p class="testimonio__nombre">- Emilia Soto</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenido">
+            <ul class="footer__enlaces">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="equipo.html">Equipo Médico</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="footer__info-contacto">
+                <p>Escríbenos a: serviciohospital@hospitalnuevavida.cl</p>
+                <p>Fono: +569 12345678</p>
+                <p>Santiago, Chile</p>
+            </div>
+            <p class="footer__redes-titulo">Síguenos en nuestras redes sociales</p>
+            <div class="footer__redes-sociales">
+                <a href="https://www.facebook.com" target="_blank" class="footer__redes-icono"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://www.twitter.com" target="_blank" class="footer__redes-icono"><i
+                        class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com" target="_blank" class="footer__redes-icono"><i
+                        class="fab fa-instagram"></i></a>
             </div>
         </div>
-        <div class="servicio card col-md mx-2">
-            <img src="img/urgencias.jpg" alt="Urgencias" class="servicio__imagen">
-            <div class="card-body">
-                <h3 class="servicio__titulo card-title">Urgencias</h3>
-                <p class="servicio__descripcion card-text">Atención las 24 horas<br>para emergencias médicas.</p>
-            </div>
-        </div>
-        <div class="servicio card col-md mx-2">
-            <img src="img/especialidades-medicas.jpg" alt="Especialidades" class="servicio__imagen">
-            <div class="card-body">
-                <h3 class="servicio__titulo card-title">Especialidades Médicas</h3>
-                <p class="servicio__descripcion card-text">Contamos con una amplia<br>variedad de especialidades.</p>
-            <div>
-        </div>
-    </div>
-</section>
-
-
-<section class="testimonios">
-    <h2 class="testimonios__titulo">Testimonios de Pacientes</h2>
-    <div class="testimonio">
-        <img src="img/peril_1.jpg" alt="Paciente 1" class="testimonio__imagen">
-        <blockquote class="testimonio__texto">"La mejor atención médica que he recibido, muy agradecido con el equipo
-            del hospital."</blockquote>
-        <p class="testimonio__nombre">- Luis Peres</p>
-    </div>
-    <div class="testimonio">
-        <img src="img/peril_2.jpg" alt="Paciente 2" class="testimonio__imagen">
-        <blockquote class="testimonio__texto">"Tremendo servicio, todos muy profesionales."</blockquote>
-        <p class="testimonio__nombre">- Carlos Astorga</p>
-    </div>
-    <div class="testimonio">
-        <img src="img/peril_3.jpg" alt="Paciente 3" class="testimonio__imagen">
-        <blockquote class="testimonio__texto">"Atención muy rápida, recomendado."</blockquote>
-        <p class="testimonio__nombre">- Lucia Andrade</p>
-    </div>
-    <div class="testimonio">
-        <img src="img/peril_4.jpg" alt="Paciente 4" class="testimonio__imagen">
-        <blockquote class="testimonio__texto">"Fui a muchos centros médicos, y este fue por lejos el mejor."
-        </blockquote>
-        <p class="testimonio__nombre">- Emilia Soto</p>
-    </div>
-</section>
-
-</main>
-
-<footer class="footer">
-    <div class="footer__contenido">
-        <ul class="footer__enlaces">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="equipo.html">Equipo Médico</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-        <div class="footer__info-contacto">
-            <p>Escríbenos a: serviciohospital@hospitalnuevavida.cl</p>
-            <p>Fono: +569 12345678</p>
-            <p>Santiago, Chile</p>
-        </div>
-        <p class="footer__redes-titulo">Síguenos en nuestras redes sociales</p>
-        <div class="footer__redes-sociales">
-            <a href="https://www.facebook.com" target="_blank" class="footer__redes-icono"><i
-                    class="fab fa-facebook-f"></i></a>
-            <a href="https://www.twitter.com" target="_blank" class="footer__redes-icono"><i
-                    class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com" target="_blank" class="footer__redes-icono"><i
-                    class="fab fa-instagram"></i></a>
-        </div>
-    </div>
-</footer>
+    </footer>
 
 
 </body>
